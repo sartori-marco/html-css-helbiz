@@ -47,11 +47,28 @@
 }
 
 /* allineamento */
-.text-right {
+. {
   text-align: right;
 }
 .text-center {
   text-align: center;
+}
+
+/* carattere */
+.title{
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.subtitle{
+  font-size: 25px;
+  padding: 10px;
+}
+
+#prodotti a{
+  font-size: 20px;
+  padding: 25px;
 }
 
 /* margin */
@@ -61,6 +78,13 @@
 .mr-10 {
   margin-right: 10px;
 }
+
+/* colore */
+.light-grey{
+  background-color: rgba(0, 0, 0, 0.20);
+}
+
+
 
 /* framework colonne*/
 .col-lg-1 {
