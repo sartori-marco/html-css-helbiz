@@ -84,7 +84,17 @@ ul.navbar-language :not(li:last-child) a {
   height: 400px;
 }
 
+/* @media */
 
+
+#steps{
+  background-image: url('../img/index-banner.1f6fd0a.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+
+}
 
 
 
