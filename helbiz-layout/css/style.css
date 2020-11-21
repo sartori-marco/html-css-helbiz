@@ -87,32 +87,65 @@ ul.navbar-language :not(li:last-child) a {
 /* @media */
 
 
-#steps{
-  background-image: url('../img/index-banner.1f6fd0a.jpg');
+
+/* @media */
+
+.banner{
+  background-image: url("../img/index-banner.1f6fd0a.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
-  position: relative;
+}
 
+.phone{
+  width: 70%;
 }
 
 
 
+/* mobility */
 
+.scooter{
+  background-image: url("../img/scooter.jpg");
+  height: 500px;
+  position: relative;
+}
 
+.mobility{
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  color: white;
+}
 
+/* app */
+.phone{
+  
+  width: 50%;
+}
 
+.bg-blue{
+  background-color: #324150;
+}
 
+#app a{
+  padding-bottom: 50px;
+}
+.img-right{
+  background-image: url("../img/city.7c8c928.jpg");
+  background-size: cover;
+  position: relative;
+  height: 405px;
+}
 
+#app img{
+  width: 30%;
+  height: 300px;
+  padding-top: 70px;
+}
 
-
-
-
-
-
-
-
-
+#app .container .row h1, a, p{
+  color: white;
+}
 
 
 
