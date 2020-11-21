@@ -94,6 +94,7 @@ ul.navbar-language :not(li:last-child) a {
   background-image: url("../img/index-banner.1f6fd0a.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 500px;
 }
 
 .phone{
@@ -119,7 +120,7 @@ ul.navbar-language :not(li:last-child) a {
 
 /* app */
 .phone{
-  
+
   width: 50%;
 }
 
@@ -147,6 +148,49 @@ ul.navbar-language :not(li:last-child) a {
   color: white;
 }
 
+/* @media */
+
+#family{
+  background-image: url("../img/muro.jpg");
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.container-small{
+  width: 600px;
+  height: 250px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateY(-25%);
+  transform: translateX(-50%);
+  background-color: white;
+}
+
+#family .container-small{
+  text-align: center;
+
+}
+
+#family p{
+  font-size: 50px;
+  margin-top: 30px;
+  color: black;
+}
+
+#family ul li {
+  display: inline-block;
+  font-size: 50px;
+  padding: 10px;
+
+}
+
+#family ul li a{
+  color: black;
+}
+
+/* footer */
 
 
 
