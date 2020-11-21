@@ -191,7 +191,23 @@ ul.navbar-language :not(li:last-child) a {
 }
 
 /* footer */
+footer{
+  height: 500px;
+  background-color: black;
+}
 
+footer .title{
+  color: white;
+}
+
+footer li h4{
+  text-transform: uppercase;
+  color: white;
+}
+
+footer hr{
+  color: white;
+}
 
 
 
