@@ -194,6 +194,7 @@ ul.navbar-language :not(li:last-child) a {
 footer{
   height: 500px;
   background-color: black;
+  
 }
 
 footer .title{
@@ -205,10 +206,21 @@ footer li h4{
   color: white;
 }
 
-footer hr{
-  color: white;
+footer li{
+  padding: 10px;
 }
 
+footer hr{
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.icone ul li{
+  display: inline-block;
+  padding: 10px;
+
+}
 
 
 

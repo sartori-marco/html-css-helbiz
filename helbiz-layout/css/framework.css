@@ -85,6 +85,13 @@
   margin-right: 10px;
 }
 
+.mt-10{
+  margin-top: 10px;
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}
 /* padding */
 .p-20{
   padding: 20px}
