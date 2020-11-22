@@ -95,10 +95,13 @@ ul.navbar-language :not(li:last-child) a {
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+  position: relative;
 }
 
 .phone{
   width: 70%;
+  z-index: 3;
+
 }
 
 
@@ -120,8 +123,9 @@ ul.navbar-language :not(li:last-child) a {
 
 /* app */
 .phone{
-
   width: 50%;
+  z-index: 2;
+  margin-top: 200px;
 }
 
 .bg-blue{
@@ -194,7 +198,7 @@ ul.navbar-language :not(li:last-child) a {
 footer{
   height: 500px;
   background-color: black;
-  
+
 }
 
 footer .title{
